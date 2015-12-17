@@ -1,0 +1,89 @@
+body, textarea{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	text-align: center
+}
+
+form, h2{
+	display: inline
+}
+
+h1#market{
+	background: coral;
+	color: white;
+	width: 375px;
+	border-radius: 50px;
+	margin: auto;
+	padding: 5px;
+}
+
+h1#market{
+	background: #43C6DB;
+}
+
+th{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #43C6DB;
+	color: white;
+}
+
+h2{
+	border-radius: 50px;
+	margin: auto;
+	padding: 5px;
+	width: 250px
+}
+
+h2{
+	border: 3px solid darkblue;
+	bottom: 10px;
+	color: darkblue;
+	position: relative
+
+}
+
+input{
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 100px;
+    -moz-appearance:textfield;
+}
+
+input[type=submit]{
+	background: lightgray;
+	border-radius: 10px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 5px
+}
+
+p{
+	font-size: 70%;
+	font-size-adjust: .75;
+}
+
+table{
+	border: 2px solid lightgray;
+	border-radius: 10px;
+	margin: auto
+}
+
+textarea{
+	border-radius: 5px;
+	height: 45px;
+	width: 400px;
+	resize: none
+}
+
+textarea:focus{
+	box-shadow: 0 0 5px gray
+}
+
+.blue{
+	color: darkblue;
+	border: none;
+}
+
+.red{
+	color: red
+}

@@ -1,0 +1,84 @@
+body{
+	background: #2B547E url("https://unsplash.it/1920/1080?image=852");
+	color: white !important;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%)
+}
+
+h1{
+	display: inline;
+	line-height: 100%;
+	text-shadow: 0 2px darkgray
+}
+
+p{
+	display: inline;
+	font-weight: bold
+}
+
+input[type=password], input[type=text], select{
+	color: gray;
+	font-weight: bold;
+	text-align: center
+}
+
+input[type=password], input[type=text]{
+	border-radius: 10px;
+	line-height: 200%;
+	width: 300px
+}
+
+input[type=text].medium{
+	width: 200px
+}
+
+input[type=text].small{
+	width: 75px
+}
+
+input[type=password]:focus, input[type=text]:focus{
+	box-shadow: 0 0 10px white;
+	outline: 0
+}
+
+input[type=submit]{
+	background: transparent;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	height: 40px;
+	width: 150px
+}
+
+input[type="submit"]:hover{
+	box-shadow: 0 -1px;
+	text-shadow: 0 -1px;
+	outline: 0
+}
+
+select{
+	border-radius: 5px
+}
+
+.fail{
+	text-shadow: 0 0 10px red
+}
+
+.center{
+	display: block;
+	margin: 0;
+	text-align: center
+}
+
+.limit{
+	margin: auto;
+	width: 300px
+}
+
+.right{
+	float: right
+}

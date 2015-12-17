@@ -1,0 +1,27 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"><?php print $_SESSION['bname']; ?></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li id="opp"><a href="opp_team.php">Opportunity/Team</a></li>
+            <li id="mark"><a href="market.php">Market</a></li>
+            <li id="chan"><a href="channels.php">Sales/Partners</a></li>
+            <li id="num"><a href="numbers.php">Financials</a></li>
+            <li id="exit"><a href="exits.php">Exits</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="user.php"><?php print $_SESSION['user'] ?> Home</a></li>
+              <li><a href="/kander/login/logout.php">Logout</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <br><br><br>
